@@ -1,0 +1,32 @@
+.tab-pane.setStyle
+{-fx-font-family: Leelawadee UI;
+}
+
+.button
+{
+    -fx-background-color: rgba(234,217,240,0.6);
+    -fx-alignment: CENTER;
+    -fx-text-fill: #2596be;
+    -fx-font-family: Leelawadee UI;
+    -fx-font-weight: bold;
+}
+
+.button:hover
+{
+    -fx-background-color: #40E0D0;
+}
+
+.button:pressed
+{
+    -fx-background-color: rgba(234, 217, 240, 0.3);
+    -fx-text-fill: pink;
+}
+
+.button:focused
+{
+    -fx-background-color: #40E0D0;
+    -fx-text-fill: pink;
+}
+
+
+
